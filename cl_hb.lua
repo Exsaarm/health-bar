@@ -13,6 +13,8 @@ CreateThread(function()
     NUI:Toggle(true)
 
     local map = RequestScaleformMovie("minimap")
+    SetBigmapActive(true, true)
+    SetBigmapActive(false, false)
 
     while true do
         Wait(250)
