@@ -17,7 +17,7 @@ end
 ---@param visible boolean
 function NUI:Toggle(visible)
     toggleNuiFrame(visible)
-	healthBarEnabled = visible
+    healthBarEnabled = visible
 end
 
 ---@type function
