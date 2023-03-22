@@ -9,6 +9,6 @@ client_scripts {
 ui_page "build/index.html"
 
 files {
-	"build/index.html",
-	"build/**/*",
+    "build/index.html",
+    "build/**/*",
 }
